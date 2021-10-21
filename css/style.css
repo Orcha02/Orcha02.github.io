@@ -836,7 +836,7 @@ h3 {
   font-size: 16px;
 }
 h4 {
-  font-size: 14px;
+  font-size: 20px;
 }
 h5 {
   font-size: 12px;
@@ -2564,8 +2564,18 @@ div.dt-button-info {
 .img-fluid {
   max-width: 80%;
 }
+#myimage
+{
+  max-width: 150%;
+  padding-left: 50%;
+  
+}
+#myfoot {
+  margin: auto;
+  display: block;
+}
 .small, small {
-  font-size: 180%;
+  font-size: 250%;
 }
 /* CIRCLE */
 .img-circle {
@@ -7863,7 +7873,7 @@ body.landing-page {
   overflow: hidden;
 }
 .landing-page span.navy {
-  color: #1ab394;
+  color: #e9175e;
 }
 .landing-page p.text-color {
   color: #676a6c;
@@ -7876,11 +7886,14 @@ body.landing-page {
   color: #179d82;
 }
 .landing-page section p {
-  color: #aeaeae;
-  font-size: 13px;
+  color: #a8a9ab;
+  font-size: 20px;
 }
 .landing-page address {
-  font-size: 13px;
+  font-size: 20px;
+}
+.holbies {
+  font-size: 20px;
 }
 .landing-page h1 {
   margin-top: 10px;
@@ -7891,7 +7904,7 @@ body.landing-page {
   width: 60px;
   height: 1px;
   margin: 60px auto 0;
-  border-bottom: 2px solid #1ab394;
+  border-bottom: 2px solid #e9175e;
 }
 .landing-page .navbar {
   padding: 0 1rem;
@@ -7922,12 +7935,12 @@ body.landing-page {
   transition: all 0.3s ease-in-out 0s;
 }
 .landing-page .navbar-default .nav li a {
-  color: #fff;
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 14px;
+  color: #e9175e;
 }
 .landing-page .navbar-nav > li > a {
   padding-top: 25px;
@@ -7936,12 +7949,12 @@ body.landing-page {
 .landing-page .navbar-default .navbar-nav > .active > a,
 .landing-page .navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
-  color: #fff;
-  border-top: 6px solid #1ab394;
+  color: #a8a9ab;
+  border-top: 6px solid #e9175e;
 }
 .landing-page .navbar-default .navbar-nav > li > a:hover,
 .landing-page .navbar-default .navbar-nav > li > a:focus {
-  color: #1ab394;
+  color: #335ab1;
   background: inherit;
 }
 .landing-page .navbar-default .navbar-nav > .active > a:focus {
@@ -8020,7 +8033,7 @@ body.landing-page {
   width: 100%;
 }
 .landing-page .header-back.one {
-  background: url('../img/banner.jpg') 50% 0 no-repeat;
+  background: url('../img/headBanner.png') 50% 0 no-repeat;
 }
 .landing-page .header-back.two {
   background: url('../img/header_two.jpg') 50% 0 no-repeat;
@@ -8106,16 +8119,18 @@ body.landing-page {
   padding-right: 60px;
 }
 .landing-page .carousel-caption h1 {
-  font-weight: 700;
-  font-size: 38px;
+  font-weight: 800;
+  font-size: 50px;
   text-transform: uppercase;
   text-shadow: none;
   letter-spacing: -1.5px;
+  color: #e9175e;
 }
 .landing-page .carousel-caption p {
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   text-shadow: none;
+  color: #a8a9ab;
 }
 .landing-page .caption-link {
   color: #fff;
@@ -8143,7 +8158,7 @@ body.landing-page {
   margin-top: 40px;
 }
 .landing-page .features small {
-  color: #1ab394;
+  color: #e9175e;
 }
 .landing-page .features h2 {
   font-size: 18px;
@@ -8176,7 +8191,7 @@ body.landing-page {
   margin: auto;
 }
 .landing-page .social-icon a {
-  background: #1ab394;
+  background: #335ab1;
   color: #fff;
   padding: 4px 8px;
   height: 28px;
@@ -8185,7 +8200,7 @@ body.landing-page {
   border-radius: 50px;
 }
 .landing-page .social-icon a:hover {
-  background: #179d82;
+  background: #a8a9ab;
 }
 .landing-page .img-small {
   height: 88px;
@@ -8210,7 +8225,7 @@ body.landing-page {
   color: #1ab394;
 }
 .landing-page li.pricing-desc {
-  font-size: 13px;
+  font-size: 50px;
   border-top: none;
   padding: 20px 16px;
 }
@@ -8292,8 +8307,8 @@ body.landing-page {
   color: #fff;
 }
 .landing-page .btn-primary {
-  background-color: #1ab394;
-  border-color: #1ab394;
+  background-color: #335ab1;
+  border-color: #335ab1;
   color: #FFFFFF;
   font-size: 14px;
   padding: 10px 20px;
@@ -8304,8 +8319,8 @@ body.landing-page {
 .landing-page .btn-primary:active,
 .landing-page .btn-primary.active,
 .landing-page .open .dropdown-toggle.btn-primary {
-  background-color: #179d82;
-  border-color: #179d82;
+  background-color: #a8a9ab;
+  border-color: #a8a9ab;
   color: #FFFFFF;
 }
 .landing-page .btn-primary:active,
@@ -8350,7 +8365,7 @@ body.landing-page {
   }
   .landing-page .carousel-caption p {
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 19px;
     line-height: 1.4;
   }
   .landing-page .featurette-heading {
