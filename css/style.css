@@ -2574,6 +2574,9 @@ div.dt-button-info {
   margin: auto;
   display: block;
 }
+#social-media {
+  max-width: 5%;
+}
 .small, small {
   font-size: 250%;
 }
