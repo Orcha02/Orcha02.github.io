@@ -2574,9 +2574,6 @@ div.dt-button-info {
   margin: auto;
   display: block;
 }
-#social-media {
-  max-width: 5%;
-}
 .small, small {
   font-size: 250%;
 }
@@ -8035,11 +8032,13 @@ body.landing-page {
   height: 470px;
   width: 100%;
 }
-.landing-page .header-back.one {
-  background: url('../img/headBanner.png') 50% 0 no-repeat;
-}
-.landing-page .header-back.two {
-  background: url('../img/header_two.jpg') 50% 0 no-repeat;
+#headBanner {
+  width: 88%;
+  height: 900px;
+  margin: auto;
+  display: block;
+  padding-bottom: 20%;
+  
 }
 .landing-page .carousel {
   height: 470px;
