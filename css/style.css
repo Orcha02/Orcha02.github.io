@@ -7926,12 +7926,17 @@ body.landing-page {
   text-align: justify;
 }
 #implementation {
-  padding-top: 2%;
+  padding-top: 4%;
   text-align: justify;
 }
-.landing-page .carousel {
-  height: 470px;
-  overflow: hidden;
+.text {
+  padding-top: 1%;
+}
+#lock {
+  max-width: 20%;
+  margin-top: -2%;
+  display: block;
+  margin-left: 13%;
 }
 .landing-page .carousel-caption {
   z-index: 10;
