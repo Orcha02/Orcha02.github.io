@@ -7929,8 +7929,14 @@ body.landing-page {
   padding-top: 2%;
   text-align: justify;
 }
+#lock {
+  max-width: 20%;
+  margin-top: -2%;
+  display: block;
+  margin-left: 13%;
+}
 .landing-page .carousel {
-  height: 470px;
+  height: 105%;
   overflow: hidden;
 }
 .landing-page .carousel-caption {

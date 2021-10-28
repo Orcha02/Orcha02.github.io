@@ -28,7 +28,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="nav-link page-scroll" href="#page-top">Home</a></li>
                         <li><a class="nav-link page-scroll" href="#project">Project</a></li>
-                        <li><a class="nav-link page-scroll" href="#aboutApp">About</a></li>
+                        <li><a class="nav-link page-scroll" href="#aboutApp">App</a></li>
                         <li><a class="nav-link page-scroll" href="#team">Team</a></li>
                         <li><a class="nav-link page-scroll" href="#contact">Contact</a></li>
                     </ul>
@@ -38,20 +38,19 @@
     </div>
     <div id="inSlider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>BankScrapers<br />
-                        </h1>
-                        <p>Automate the retrieve of financial information to use in the app</p>
-                        <p>
-                            <a class="btn btn-lg btn-primary" href="https://mibolsilloapp.com/mx/"
-                                role="button">mibolsillo.com</a>
-                        </p>
-                    </div>
-                    <div class="carousel-image wow fadeInUpBig">
-                        <img src="img/headerBanner.png" id="headBanner">
-                    </div>
+            <div class="carousel-item active"></div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>BankScrapers<br />
+                    </h1>
+                    <p>Automate the retrieve of financial information to use in the app</p>
+                    <p>
+                        <a class="btn btn-lg btn-primary" href="https://mibolsilloapp.com/mx/"
+                            role="button">mibolsillo.com</a>
+                    </p>
+                </div>
+                <div class="carousel-image wow fadeInUpBig">
+                    <img src="img/headerBanner.png" id="headBanner">
                 </div>
             </div>
         </div>
@@ -76,19 +75,23 @@
         </div>
         <div class="features-text wow fadeInLeft" id="implementation">
             <small>Implementation</small>
-            <p>In order to fulfill the project we work with the architecture use for mibolsillo with some tools as AWS
-                and Firebase. In
-                this section we want to explained how was the process to achieve the goal as illustrated in the image
-                below.</p>
-            <p>To start with the process, the user through the app gives the information to login to the bank account
-                that he wants to
-                connect with. Then, we receive that information as an sqs message that triggers the main file which
-                calls a command file according to the chosen bank, in our case "NuBank". There are several steps after
-                the command starts running, first it calls the scraper where we login to the bank and downloads the OFX
-                files, then this file is sent to an ofx interface which is in charge of manipulate and
-                extract the data we need, after all the information is organized we use the firebase interface to send
-                it to the firebase database, where is saved as a dictionary. Finally, that dictionary is sent to the app
-                to be displayed to the user.</p>
+            <div class="text">
+                <p>In this section we want to explained how was the process to achieve the goal as illustrated in the
+                    image
+                    below.</br> To start with the process, the user through the app gives the information to login to
+                    the
+                    bank account that he wants to connect with. Then, we receive that information as an sqs message that
+                    triggers the main file which calls a command file according to the chosen bank, in our case
+                    "NuBank".
+                    When command starts running, first it calls the scraper where we login to the bank and downloads the
+                    OFX
+                    files, then this file is sent to an ofx interface which is in charge of manipulate and
+                    extract the data we need, after all the information is organized we use the firebase interface to
+                    send
+                    it to the firebase database, where is saved as a dictionary. Finally, that dictionary is sent to the
+                    app
+                    to be displayed to the user.</p>
+            </div>
             <div class="text-right wow fadeInRight">
                 <img src="img/implementation.jpg" alt="dashboard" class="img-fluid" id="miro">
             </div>
@@ -118,11 +121,9 @@
                     <div class="team-member wow zoomIn">
                         <img src="img/yerardin.jpg" class="img-fluid rounded-circle" alt="">
                         <h4><span class="navy">Yerardin</span> Perlaza Medina</h4>
-                        <p>Back-End</p>
-                        <p>Design the page in HTML and CSS code.
-                            Implement and integrate the logic with JavaScript.
-                            API’s integration
-                            UX - User experience
+                        <p>Software Engineer</p>
+                        <p>Design web page with HTML, CSS and Javascript. Implement and integrate logic with Python and
+                            tools as Amazon SQS , OFX and Firebase.
                         </p>
                         <ul class="list-inline social-icon">
                             <li class="list-inline-item"><a href="https://twitter.com/YerardinPerlaza"><i
@@ -140,16 +141,13 @@
                 </div>
                 <div class="col-sm-4 wow fadeInLeft">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 wow fadeInRight">
                     <div class="team-member wow zoomIn">
                         <img src="img/daniel.jpg" class="img-fluid rounded-circle" alt="">
                         <h4><span class="navy">Daniel</span> Ortega Chaux</h4>
-                        <p>Back-End</p>
-                        <p> Database creation, integration, and management (MySQL)
-                            Local Storage.
-                            API’s Integration.
-                            Endpoints creation and configuration.
-                            Security settings.
+                        <p>Software Engineer</p>
+                        <p> Design web page with HTML, CSS and Javascript. Implement and integrate logic with Python and
+                            tools as Amazon SQS , OFX and Firebase.
                         </p>
                         <ul class="list-inline social-icon">
                             <li class="list-inline-item"><a href="https://twitter.com/OrtegaChaux"><i
@@ -176,24 +174,28 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="navy-line"></div>
-                    <h1>In this link you can find everything related to the project.</h1>
+                    <h1>Here you can find repository of landing page, unfortunately backend repository is private from
+                        the
+                        company.</h1>
                 </div>
             </div>
             <div class="row features-block">
                 <div class="col-lg-3 features-text wow fadeInLeft">
-                    <small>GitHub</small>
+                    <small>Landing page</small>
                     <br>
                     <br>
-                    <a href="https://github.com/jfbm74/cuidala_v2" class="btn btn-primary">Learn more</a>
+                    <a href="https://github.com/Orcha02/mbLandingPage" class="btn btn-primary">Github Repo</a>
                 </div>
                 <div class="col-lg-6 text-right m-t-n-lg wow zoomIn">
                     <img src="img/mbLogo.png" class="img-fluid" alt="dashboard" id="myfoot">
                 </div>
-                <div class="col-lg-3 features-text text-right wow fadeInRight">
-                    <small>App Display</small>
+                <div class="col-lg-3 features-text wow fadeInLeft">
+                    <small>Project</small>
                     <br>
                     <br>
-                    <a href="http://143.198.64.166/" class="btn btn-primary">Learn more</a>
+                    <a href="https://github.com/MiBolsillo/bank_scrapers">
+                        <img src="img/iconblue.png" id="lock">
+                    </a>
                 </div>
             </div>
         </div>
@@ -225,9 +227,6 @@
                         2624@holbertonschool.com<br />
                         2732@holbertonschool.com<br />
                     </p>
-                </div>
-                <div class="col-lg-4">
-                    <img src="img/footerBanner.jpg" class="img-fluid" alt="dashboard" id="contactBanner">
                 </div>
             </div>
             <div class="row">
