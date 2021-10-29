@@ -7985,6 +7985,7 @@ body.landing-page {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 100% !important;
 }
 .landing-page .carousel {
   height: 658px;
